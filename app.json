@@ -1,9 +1,9 @@
 {
-  "name": "Man-Userbot",
-  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "name": "lala-Userbot",
+  "description": "[lala-userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
   "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
-  "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
-  "repository": "https://github.com/mrismanaziz/Man-Userbot",
+  "keywords": ["telegram", "userbot", "lala-userbot", "modular", "python"],
+  "repository": "https://github.com/lalasalsabilah/lala-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -14,16 +14,13 @@
       "description": "Dapatkan API Hash di web my.telegram.org",
       "required": true
     },
-    "BOT_TOKEN": {
-      "description": "Buat Bot di t.me/botfather Masukan BOT tokennya disini",
-      "required": false
-    },
-    "BOT_USERNAME": {
-      "description": "Buat Bot di t.me/botfather Masukan BOT Usernamenya pake @",
-      "required": false
+    "    
+    
+   
+
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » https://t.me/SharingUserbot » Lalu ketik #string",
+      "description": "Dapatkan String Session di bot » @stringqbot
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -53,7 +50,7 @@
       "url": "heroku/python"
     },
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      
     }
   ],
   "formation": {
